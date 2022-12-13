@@ -1,0 +1,30 @@
+{
+  "name": "mj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "allowedHosts": "all",
+  "scripts": {
+    "build": "webpack --config config.prod.js",
+    "start": "webpack-dev-server --mode development --open --config config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandar95/basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandar95/basic/issues"
+  },
+  "homepage": "https://github.com/mandar95/basic#readme",
+  "dependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "style-loader": "^3.3.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
